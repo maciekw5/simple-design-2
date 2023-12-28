@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+[id] {
+  scroll-margin-top: 84px;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: -1;
+}
+
+.navbar-brand {
+  font-size: 2.4rem;
+}
+
+.nav-link, .navbar-toggler-icon {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+.navbar-toggler {
+  padding: 1em 2em;
+}
+
+.home {
+  position: relative;
+  height: 80rem;
+  z-index: 0;
+  background-image: url("../img/hero-coding.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.home .btn {
+  padding: 0.8em 1.6em;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.home .display-1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.btn, .btn-outline-light {
+  margin-top: 3rem;
+}
+
+.aboutus-box h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.aboutus-icon {
+  font-size: 4rem;
+}
+
+.accordion-button {
+  padding: 1.5em;
+  font-size: 1.6rem;
+  transition: font-size 0.3s;
+  transition: background-color 0.3s;
+}
+
+.team {
+  background-color: #eee;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.4em 0;
+}
+
+.card-img-top {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ddd;
+  color: #333;
+}
+
+hr {
+  width: 10rem;
+  margin: auto;
+  color: #eee;
+}
+
+.submit-btn {
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.footer__title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.footer__icon {
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .home .display-1 {
+    font-size: 6.5rem;
+  }
+}
+@media (min-width: 992px) {
+  [id] {
+    scroll-margin-top: 72px;
+  }
+}/*# sourceMappingURL=main.css.map */
